@@ -1,5 +1,5 @@
-from src.tools.tools import web_search
+from src.pipelines.pipeline import run_research_pipeline
 
-result=web_search.invoke("How Close are we to AGI?")
+topic="the impact of AI on the job market 2026"
 
-print(result)
+run_research_pipeline(topic)

@@ -16,6 +16,7 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "readability-lxml>=0.8.4.1",
     "requests>=2.31.0",
+    "streamlit>=1.60.0",
     "tavily-python>=0.7.26",
     "trafilatura>=2.1.0",
 ]
